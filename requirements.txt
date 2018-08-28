@@ -39,6 +39,7 @@ packaging==17.1
 pandas==0.23.4
 pandocfilters==1.4.2
 parso==0.3.1
+patsy==0.5.0
 pexpect==4.6.0
 pickleshare==0.7.4
 prompt-toolkit==1.0.15
@@ -71,6 +72,7 @@ Sphinx==1.7.6
 sphinxcontrib-websupport==1.1.0
 spyder==4.0.0b1
 spyder-kernels==1.1.0
+statsmodels==0.9.0
 testpath==0.3.1
 tornado==5.1
 traitlets==4.3.2
