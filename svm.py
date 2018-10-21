@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from sklearn.linear_model import LogisticRegression
+from sklearn.svm import SVC
 
 dataset = pd.read_csv('./data/Social_Network_Ads.csv')
 
@@ -40,7 +40,7 @@ X = sc_X.fit_transform(X)
 X_treino, X_teste, y_treino, y_teste = train_test_split( X, y, test_size=0.25, random_state = 0)
 
 
-classificador = LogisticRegression(random_state = 0)
+classificador = SVC(random_state = 0)
 classificador.fit(X_treino, y_treino)
 
 y_pred = classificador.predict(X_teste)

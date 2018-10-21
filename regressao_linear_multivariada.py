@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Regressão linear simples
+# Regressão linear multivariada
 
 import pandas as pd
 import matplotlib.pyplot as plt
